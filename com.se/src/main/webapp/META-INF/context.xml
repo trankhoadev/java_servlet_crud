@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+  <Resource name="jdbc/web_student_tracker" 
+    auth="Container" type="javax.sql.DataSource"
+           maxActive="20" maxIdle="5" maxWait="10000"
+           username="sa" password="123456789" 
+           driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+               url="jdbc:sqlserver://localhost:1433;databaseName=web_student_tracker"/>
+</Context>
